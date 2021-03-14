@@ -16,7 +16,7 @@ public class NacosProviderController {
 
     @GetMapping("/nacosProvider")
     public String testNacosProvider(String message){
-        return "hello nacos " + message;
+        return "hello nacos your name is " + message;
     }
 
 

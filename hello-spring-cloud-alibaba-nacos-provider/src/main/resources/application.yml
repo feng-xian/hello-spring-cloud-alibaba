@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: nacos-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.4:8848
+
+server:
+  port: 12345
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
